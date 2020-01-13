@@ -48,9 +48,9 @@ span{
 #profile_img{
     margin: 0 auto;
     display: block;
-    filter: grayscale(75%);
-    width: 15rem;
-    padding: 1rem 0 2rem;
+    filter: grayscale(50%);
+    width: 12rem;
+    padding: 1rem 0 1rem;
     border-radius: 25% 10%;
 }
 
