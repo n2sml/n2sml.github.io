@@ -1,20 +1,68 @@
-span, h1{
+span, h1, h2{
     display: block;
     text-align: center;
 }
 
-h1{
-    color: white
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 2rem 0
 }
 
 span{
-    color: #777
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.col-12{
-    margin: 2rem 0
+.color-light{
+    color: white
 }
 
-body{
-    background-color: #333;
+.color-dark{
+    color: black
+}
+
+.color-light, .color-dark{
+    opacity: 0.33;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #pp-nav, .res-hide{
+        display: none
+    }
+
+    .color-light, .color-dark{
+        font-size: 100%
+    }    
+}
+
+@media only screen and (min-width: 600px) {
+    .res-visible{
+        display: none
+    }
+
+    .color-light, .color-dark{
+        font-size: 150%
+    }    
+}
+
+#profile_img{
+    margin: 0 auto;
+    display: block;
+    filter: grayscale(75%);
+    width: 15rem;
+    padding: 1rem 0 2rem;
+    border-radius: 25% 10%;
+}
+
+.contact-buttons button{
+    background: transparent;
+    border: 0px;
+}
+
+.contact-buttons span{
+    color: white
+}
+
+.contact-buttons img{
+    width: 5rem;   
 }

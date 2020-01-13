@@ -8,26 +8,39 @@
     <title>n2sml</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="display: none;">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
+
+        <div class="row section pp-easing">
+            <div class="color-dark">
                 <h1>Bem vindo.</h1>
             </div>
-            <div class="col-12">
-                <h2>Introdução</h2>
+            <div>
+                <img src="assets/profile_photo.jpg" alt="Profile Photo" id="profile_img">
+            </div>
+            <div class="col-12 color-dark">
                 <span>
-                    Meu nome é Nicolas Miguel. Tenho 23 anos e sou desenvoledor de Software.<br></span>
+                    Meu nome é Nicolas Miguel.<br>
+                </span>
                 <span>
-                    Tive meu primeiro contato com desenvolvimento de Software em 2017, ao entrar no curso de Tecnologia
-                    em
+                    Tenho 23 anos e sou desenvoledor de Software. <br>
+                </span>
+                <span>
+                    Tive meu primeiro contato com desenvolvimento de Software em 2017, <br>
+                    ao entrar no curso de Tecnologia em
                     Análise e Desenvolvimento de Sistemas do Instituto Federal de Pernambuco.<br>
                 </span>
             </div>
-            <div class="col-12">
-                <h2>Primeiro estágio e Monitoria</h2>
+        </div>
+
+        <div class="row section pp-easing">
+            <div class="col-12 color-dark">
+                <h1>Estágios e primeira Monitoria.</h1>
                 <span>
                     Em 2018, fui monitor da disciplina de Linguagem de Programação Orientada à Objetos, disciplina
                     lecionada
@@ -36,45 +49,54 @@
                     Também em 2018, fui estagiário de um projeto utilizando Visão Computacional no IFPE, com duração de
                     aproximadamente 6 meses.<br>
                 </span>
-            </div>
-            <div class="col-12">
-                <h2>Segundo estágio</h2>
                 <span>
                     Em 2019, fui estagiário do Instituto SENAI de Inovação em Tecnologia da Informação e Comunicações
                     (ISI-TICs).<br>
                 </span>
-                <span>
+                <span class="res-hide">
                     Lá desenvolvi dois projetos: o primeiro, utilizando Wordpress, e o segundo, um sistema implementado
                     em
-                    Java, com um front-end feito em AngularJS e depois criado um novo em React.<br>
+                    Java, <br>
+                    com um front-end feito em AngularJS e depois na criação de um novo com React.<br>
                 </span>
             </div>
-            <div class="col-12">
-                <h2>2019 e Trabalho atual</h2>
+        </div>
+
+        <div class="row section pp-easing">
+            <div class="col-12 color-dark">
+                <h1>2019 e Trabalho atual.</h1>
                 <span>
                     No segundo semestre de 2019, comecei a trabalhar na Secretaria da Fazenda do Estado de Pernambuco
                     como
-                    Desenvolvedor Web.
-                    É lá onde trabalho atualmente, com Java e front-end.<br>
+                    Desenvolvedor Web. <br>
+                </span>
+                <span>
+                    É lá onde trabalho atualmente, principalmente com Java e front-end.<br>
                 </span>
                 <span>
                     Também no segundo semestre de 2019, fui monitor da disciplina de Desenvolvimento de Sistemas Web 2,
                     lecionada pelo professor Paulo Gonçalves.<br>
                 </span>
             </div>
-            <div class="col-12">
-                <h2>Projeto recente</h2>
+        </div>
+
+        <div class="row section pp-easing">
+            <div class="col-12 color-light">
+                <h1>Projeto mais recente.</h1>
                 <span>
                     No meu projeto de conclusão de curso, estou implementando um sistema Web com a finalidade de unir
-                    estudantes com necessidade de produção acadêmica (como seu trabalho de conclusão de curso, iniciação
-                    científica e projeto de extensão) com os docentes que os propõem.<br>
+                    estudantes com necessidade de produção acadêmica
+                    <span class="res-hide">
+                        (como seu trabalho de conclusão de curso, iniciação
+                        científica e projeto de extensão)
+                    </span>
+                    com os docentes que os propõem.<br>
                 </span>
-                <span>
+                <span class="res-hide">
                     Neste projeto, utilizarei Django no back-end, Vue.js no front-end e um banco de dados MongoDB.<br>
                     A decisão de escolher esses frameworks se deu pelo fato de que desejo que meu sistema seja
-                    posteriormente implantado e utilizado na minha instituição, ajudando alunos com a mesma necessidade
-                    que
-                    eu tive desde que iniciei o meu curso.<br>
+                    posteriormente implantado e utilizado na minha instituição, <br>
+                    ajudando alunos com a mesma necessidade que eu tive desde que iniciei o meu curso.<br>
                 </span>
                 <span>
                     Este trabalho de conclusão está sendo orientado pelo professor Paulo Abadie Guedes.<br>
@@ -85,51 +107,91 @@
                     meu servidor.<br>
                 </span>
             </div>
-            <div class="col-12">
-                <h2>Principais tecnologias</h2>
+        </div>
+
+        <div class="row section pp-easing">
+            <div class="col-12 color-light">
+                <h1>Tecnologias.</h1>
                 <span>
                     Nesse tempo tive muito contato com Java. Desde o início do curso, até o meus dois estágios e o meu
                     trabalho.<br>
                 </span>
                 <span>
-                    Também tenho contato intenso com Javascript desde a disciplina de desenvolvimento de Sistemas Web 1,
-                    lecionada pelo professor Henrique Santos.<br>
-                    É a tecnologia com a qual lido com mais frequência atualmente.<br>
+                    Também tenho contato intenso com Javascript, sendo a tecnologia que mais uso atualmente.<br>
                 </span>
+                <div class="res-hide">
+                    <span>
+                        Na graduação, tive contato com MySQL, C++, JUnit, Git e Linux.<br>
+                    </span>
+                    <span>
+                        Durante o meu primeiro estágio, tive um contato com OpenCV em sua versão Java.<br>
+                    </span>
+                    <span>
+                        No meu segundo estágio, tive contato com Angular, TypeScript, metodologias áges e ferramentas
+                        como
+                        Jira.<br>
+                    </span>
+                    <span>
+                        Pontualmente utilizei Firebase, Python e Bash.<br>
+                    </span>
+                </div>
+                <div class="res-visible">
+                    <span>
+                        Nesse tempo, tive contato com MySQL, C++, JUnit, Git e Linux; OpenCV em sua versão Java;
+                        Angular, TypeScript, metodologias áges e ferramentas como
+                        Jira; pontualmente utilizei Firebase, Python e Bash.<br>
+                    </span>
+                </div>
             </div>
-            <div class="col-12">
-                <h2>Outros conhecimentos</h2>
-                <span>
-                    Na graduação, tive contato com MySQL, C++, JUnit, Git e Linux.<br>
-                </span>
-                <span>
-                    Durante o meu primeiro estágio, tive um contato com OpenCV em sua versão Java.<br>
-                </span>
-                <span>
-                    No meu segundo estágio, tive contato com Angular, TypeScript, metodologias áges e ferramentas como
-                    Jira.<br>
-                </span>
-                <span>
-                    Pontualmente utilizei Firebase, Python e Bash.<br>
-                </span>
-            </div>
-            <div class="col-12">
-                <h2>Interesses</h2>
+        </div>
+
+        <div class="row section pp-easing">
+            <div class="col-12 color-light">
+                <h1>Interesses.</h1>
                 <span>
                     Tenho interesse nas áreas de desenvolvimento Web (principalmente front-end), Testes de Software,
                     desenvolvimento Mobile e desenvolvimento de Jogos.<br>
                 </span>
-            </div>
-            <div class="col-12">
-                <h2>Contatos</h2>
-                <button>A</button>
-                <button>B</button>
-                <button>C</button>
+
+                <h1 style="padding-top: 2rem;">Contatos.</h1>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col">
+                        <div class="contact-buttons d-flex" style="justify-content: space-around;">
+                            <button>
+                                <img src="assets/linkedin_icon.png" alt="Linkedin">
+                                <span>LinkedIn</span>
+                            </button>
+                            <button>
+                                <img src="assets/gmail_icon.png" alt="Linkedin">
+                                <span>Gmail</span>
+                            </button>
+                            <button>
+                                <img src="assets/git_icon.png" alt="Linkedin">
+                                <span>Git</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row" style="padding-top: 2rem;">
+                    <div class="col d-flex justify-content-center">
+                        <p>
+                            <small>Valid CSS:</small>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.pagepiling.js"></script>
     <script src="js/bootstrap.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 
